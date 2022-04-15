@@ -81,11 +81,39 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .entrevista {
   background-color: var(--cinza);
+}
+
+.lancamentos h1 {
+  margin-top: 3%;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.title-trailer {
+  display: flex;
+}
+
+.movie {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sinopse h3 {
+  margin-bottom: 2%;
+}
+
+.sinopse span {
+  font-weight: 700;
+}
+
+.especificacoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
 }
 
 footer {
