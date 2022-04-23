@@ -153,6 +153,23 @@ nav {
   margin-right:11.5%;
 }
 
+.foto-perfil{
+  width:15%;
+}
+
+.title-avaliacoes{
+  text-align: center;
+}
+
+.avaliacoes{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.avaliacao{
+  width:25%;
+}
+
 footer {
   display: flex;
   justify-content: space-around;
