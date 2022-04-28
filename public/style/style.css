@@ -52,6 +52,7 @@ nav {
   color: #fff;
 }
 
+
 .search-form {
   display: flex;
   align-items: center;
@@ -89,7 +90,33 @@ nav {
 }
 
 #entrevista {
-  
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  /* margin-bottom: 2%; */
+}
+
+.entrevista-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-entrevista {
+  width: 25%;
+}
+
+#entrevista .especificacoes{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#entrevista .especificacoes span {
+  font-weight: 700;
+}
+
+.title-entrevista{
+  padding: 0 0 2% 6%;
 }
 
 #lancamentos h2 {
@@ -170,8 +197,8 @@ nav {
   display: flex;
   justify-content: space-evenly;
   padding-top: 2%;
-  padding-bottom: 2%;
-  margin-bottom: 1%;
+  /* padding-bottom: 2%;
+  margin-bottom: 1%; */
 }
 
 .card-avaliacao {
@@ -190,6 +217,8 @@ nav {
 }
 
 .carregar{
+  font-weight: bold;
   float:right;
   margin-right:8%;
+  margin-top: 2%;
 }
