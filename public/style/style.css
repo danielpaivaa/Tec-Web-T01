@@ -40,8 +40,13 @@ header {
 }
 
 footer {
-  background-color: var(--cinza);
+  background: var(--vermelhor);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+
 
 nav {
   color: #fff;
@@ -75,7 +80,7 @@ nav {
   text-align: center;
 }
 
-.lancamentos {
+#lancamentos {
   margin-top: -6%;
   background-color: var(--cinza);
   width: 100%;
@@ -83,11 +88,11 @@ nav {
   flex-direction: column;
 }
 
-.entrevista {
-  background-color: var(--cinza);
+#entrevista {
+  
 }
 
-.lancamentos h1 {
+#lancamentos h2 {
   margin-top: 3%;
   text-align: center;
   margin-bottom: 3%;
@@ -122,17 +127,19 @@ nav {
 }
 
 .destaque{
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 .titulo-destaque{
   display: flex;
   justify-content: space-between;
-  margin: 0 5% 0 10%;
+  align-items: center;
+  margin: 2% 8% 0 8%;
 }
 
 .filme-destaque{
   width:10%;
+  display: flex;
 }
 
 .filme-destaque:hover{
@@ -145,33 +152,44 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height:50vh;
-}
-
-.carregar{
-  float:right;
-  margin-right:11.5%;
+  flex-wrap: wrap;
+  height: 50vh;
 }
 
 .foto-perfil{
   width:15%;
 }
 
-.title-avaliacoes{
-  text-align: center;
+#avaliacoes {
+  margin-top: 2%;
+  padding: 2% 0 2% 0;
+  background-color: var(--cinza);
 }
 
-.avaliacoes{
-  display:flex;
-  justify-content: space-evenly;
-}
-
-.avaliacao{
-  width:25%;
-}
-
-footer {
+.avaliacao {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 1%;
+}
+
+.card-avaliacao {
+  width: 25%;
+
+}
+
+.title-avaliacoes{
+  padding-left: 6%;
+
+}
+
+#novidade {
+  background-color: var(--cinza);
+  width: 100%;
+}
+
+.carregar{
+  float:right;
+  margin-right:8%;
 }
