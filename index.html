@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../style/style.css" />
-  <title>Atividade CSS</title>
-  <script src="https://kit.fontawesome.com/ce70dff995.js" crossorigin="anonymous"></script>
-</head>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Atividade CSS</title>
+    <script
+      src="https://kit.fontawesome.com/ce70dff995.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <img
+        src="http://www.gustavosaraiva.com.br/assets/img/Logo-AdoroCinema.jpg"
+        alt="Adoro Cinema"
+        class="logo"
+      />
+      <nav>
+        <a class="nav-link" href="#lancamentos">Lançamentos</a>
+        |
+        <a class="nav-link" href="#destaque">Em destaque</a>
+        |
+        <a class="nav-link" href="#avaliacoes">Avaliações</a>
+        |
+        <a class="nav-link" href="#entrevistas">Entrevistas e Making Of</a>
+        |
+        <a class="nav-link" href="#novidades">Novidades</a>
+      </nav>
+      <form action="" class="search-form">
+        <label for="search-box" class="fas fa-search"></label>
+        <input type="search" img="search" placeholder="Pesquisar filme" />
+      </form>
+    </header>
 <body>
   <header>
     <img src="http://www.gustavosaraiva.com.br/assets/img/Logo-AdoroCinema.jpg" alt="Adoro Cinema" class="logo" />
@@ -55,6 +79,8 @@
             <p><span>Roteiro: </span> Michael Waldron e Jade Bartlett</p>
             <p><span>Estreia: </span>5 de maio de 2022</p>
           </div>
+
+          <img src="https://jogospedagogicosmusicais.com.br/wp-content/uploads/2022/01/stars.png" alt="" class="rating">
         </div>
       </div>
       <img src="https://cdn4.iconfinder.com/data/icons/yuai-video-app-vol-2/100/_-40-512.png" alt="" class="dots">
@@ -82,13 +108,12 @@
     </section>
 
     <section id="avaliacoes">
-
       <h2 class="title-avaliacoes">Últimas avaliações</h2>
       <div class="avaliacao">
         <div class="card-avaliacao">
           <img src="https://i.pinimg.com/originals/62/01/54/62015432fb588e9680b1dfc4bfb98f02.jpg" alt=""
             class="foto-perfil" />
-          <h4>Nome do avaliador</h4>
+          <h4>Andréia</h4>
           <p><b> Avaliação: </b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eius eos cumque
             iusto
             ea soluta esse dolor labore! Velit quod obcaecati quam dolore? Maiores illum dicta excepturi ea iusto
@@ -98,7 +123,7 @@
         <div class="card-avaliacao">
           <img src="https://i.pinimg.com/originals/a8/bf/3c/a8bf3cde77caab52933d5c5b5a46b8f9.jpg" alt=""
             class="foto-perfil" />
-          <h4>Nome do avaliador</h4>
+          <h4>Carlos</h4>
           <p><b> Avaliação: </b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eius eos cumque
             iusto ea soluta esse dolor labore! Velit quod obcaecati quam dolore? Maiores illum dicta excepturi ea iusto
             possimus!</p>
@@ -108,15 +133,15 @@
           <img
             src="https://us.123rf.com/450wm/tuktukdesign/tuktukdesign1608/tuktukdesign160800042/61010829-user-icon-mann-profil-gesch%C3%A4ftsmann-avatar-person-glyph-vektor-illustration.jpg?ver=6"
             alt="" class="foto-perfil" />
-          <h4>Nome do avaliador</h4>
+          <h4>Anônimo</h4>
           <p><b> Avaliação: </b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eius eos cumque
             iusto ea soluta esse dolor labore! Velit quod obcaecati quam dolore? Maiores illum dicta excepturi ea iusto
             possimus!</p>
         </div>
       </div>
       <button class="carregar">+ Carregar mais avaliações</button>
-
     </section>
+         
 
     <section id="entrevista">
       <h2 class="title-entrevista">Entrevistas & Making of</h2>
