@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Atividade CSS</title>
+    <script
+      src="https://kit.fontawesome.com/ce70dff995.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <img
+        src="http://www.gustavosaraiva.com.br/assets/img/Logo-AdoroCinema.jpg"
+        alt="Adoro Cinema"
+        class="logo"
+      />
+      <nav>
+        <a class="nav-link" href="#lancamentos">Lançamentos</a>
+        |
+        <a class="nav-link" href="#destaque">Em destaque</a>
+        |
+        <a class="nav-link" href="#avaliacoes">Avaliações</a>
+        |
+        <a class="nav-link" href="#entrevistas">Entrevistas e Making Of</a>
+        |
+        <a class="nav-link" href="#novidades">Novidades</a>
+      </nav>
+      <form action="" class="search-form">
+        <label for="search-box" class="fas fa-search"></label>
+        <input type="search" img="search" placeholder="Pesquisar filme" />
+      </form>
+    </header>
+<body>
+  <header>
+    <img src="http://www.gustavosaraiva.com.br/assets/img/Logo-AdoroCinema.jpg" alt="Adoro Cinema" class="logo" />
+    <nav>
+      <a class="nav-link" href="#lancamentos">Lançamentos</a>
+      |
+      <a class="nav-link" href="#destaque">Em destaque</a>
+      |
+      <a class="nav-link" href="#avaliacoes">Avaliações</a>
+      |
+      <a class="nav-link" href="#entrevista">Entrevistas e Making Of</a>
+      |
+      <a class="nav-link" href="#novidade">Novidades</a>
+    </nav>
+    <form action="" class="search-form">
+      <label for="search-box" class="fas fa-search"></label>
+      <input type="search" img="search" placeholder="Pesquisar filme" />
+    </form>
+  </header>
+
+  <main>
+    <section id="lancamentos">
+      <h2>Lançamentos</h2>
+
+      <div class="movie">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/idU-bx2x1a8" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen class="trailer"></iframe>
+        <div class="sinopse">
+          <h3>Doutor Estranho no Multiverso da Loucura</h3>
+          <p>
+            <span>Sinopse:</span> O aguardado filme trata da jornada do Doutor
+            Estranho rumo ao desconhecido.<br />Além de receber ajuda de novos
+            aliados místicos e outros já conhecidos do<br />
+            público, o personagem atravessa as realidades alternativas
+            incompreensíveis<br />
+            e perigosas do Multiverso para enfrentar um novo e misterioso
+            adversário.
+          </p>
+          <div class="especificacoes">
+            <p><span>Diretor:</span> Sam Raimi</p>
+            <p><span>Roteiro: </span> Michael Waldron e Jade Bartlett</p>
+            <p><span>Estreia: </span>5 de maio de 2022</p>
+          </div>
+
+          <img src="https://jogospedagogicosmusicais.com.br/wp-content/uploads/2022/01/stars.png" alt="" class="rating">
+        </div>
+      </div>
+      <img src="https://cdn4.iconfinder.com/data/icons/yuai-video-app-vol-2/100/_-40-512.png" alt="" class="dots">
+    </section>
+    <section id="destaque">
+      <div class="titulo-destaque">
+        <h2 class="h2-destaque">Em destaque</h2>
+        <select name="Categoria" id="categoria">
+          <option value="todos">Todos</option>
+          <option value="aventura">Aventura</option>
+          <option value="romance">Romance</option>
+          <option value="comedia">Comédia</option>
+        </select>
+      </div>
+      <div class="filmes">
+        <img src="https://br.web.img3.acsta.net/pictures/22/03/02/19/26/3666027.jpg" alt="" class="filme-destaque" />
+        <img src="https://i.pinimg.com/236x/04/97/22/049722bb38259715bc85a25e9d7a2377.jpg" alt=""
+          class="filme-destaque" />
+        <img src="https://image.tmdb.org/t/p/w342/nUTo8NzwkKoFD0WsI7KSOlg3efE.jpg" alt="" class="filme-destaque" />
+        <img src="https://www.itaucinemas.com.br/_img/_filmes/4600_capa.jpg?Morte-no-Nilo" alt=""
+          class="filme-destaque" />
+        <img src="https://br.web.img3.acsta.net/pictures/21/10/13/21/56/4755833.jpg" alt="" class="filme-destaque">
+      </div>
+      <button class="carregar">+ Carregar mais filmes</button>
+    </section>
+
+    <section id="avaliacoes">
+      <h2 class="title-avaliacoes">Últimas avaliações</h2>
+      <div class="avaliacao">
+        <div class="card-avaliacao">
+          <img src="https://i.pinimg.com/originals/62/01/54/62015432fb588e9680b1dfc4bfb98f02.jpg" alt=""
+            class="foto-perfil" />
+          <h4>Andréia</h4>
+          <p><b> Avaliação: </b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eius eos cumque
+            iusto
+            ea soluta esse dolor labore! Velit quod obcaecati quam dolore? Maiores illum dicta excepturi ea iusto
+            possimus!</p>
+        </div>
+
+        <div class="card-avaliacao">
+          <img src="https://i.pinimg.com/originals/a8/bf/3c/a8bf3cde77caab52933d5c5b5a46b8f9.jpg" alt=""
+            class="foto-perfil" />
+          <h4>Carlos</h4>
+          <p><b> Avaliação: </b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eius eos cumque
+            iusto ea soluta esse dolor labore! Velit quod obcaecati quam dolore? Maiores illum dicta excepturi ea iusto
+            possimus!</p>
+        </div>
+
+        <div class="card-avaliacao">
+          <img
+            src="https://us.123rf.com/450wm/tuktukdesign/tuktukdesign1608/tuktukdesign160800042/61010829-user-icon-mann-profil-gesch%C3%A4ftsmann-avatar-person-glyph-vektor-illustration.jpg?ver=6"
+            alt="" class="foto-perfil" />
+          <h4>Anônimo</h4>
+          <p><b> Avaliação: </b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eius eos cumque
+            iusto ea soluta esse dolor labore! Velit quod obcaecati quam dolore? Maiores illum dicta excepturi ea iusto
+            possimus!</p>
+        </div>
+      </div>
+      <button class="carregar">+ Carregar mais avaliações</button>
+    </section>
+         
+
+    <section id="entrevista">
+      <h2 class="title-entrevista">Entrevistas & Making of</h2>
+      <div class="entrevista-container">
+        <div class="card-entrevista">
+          <iframe width="100%" height="200" src="https://www.youtube.com/embed/3mSMUZ_aC14" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <div class="especificacoes">
+            <h3>Filme: Doutor Estranho 2</h3>
+            <p><span>Diretor: </span>Sam Raimi</p>
+            <p><span>Roteiro: </span>Michael Waldron e Jade Bartlett</p>
+            <p><span>Estreia: </span>5 de maio de 2022</p>
+          </div>
+        </div>
+        <div class="card-entrevista">
+          <iframe width="100%" height="200" src="https://www.youtube.com/embed/_EyDqnD4Jjo" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <div class="especificacoes">
+            <h3>Filme: The Batman</h3>
+            <p><span>Diretor: </span>Matt Reeves</p>
+            <p><span>Roteiro: </span>Matt Reeves, Peter Craig</p>
+            <p><span>Estreia: </span>3 de março de 2022</p>
+          </div>
+        </div>
+        <div class="card-entrevista">
+          <iframe width="100%" height="200" src="https://www.youtube.com/embed/cilOdv_fuBU" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+          <div class="especificacoes">
+            <h3>Filme: Pânico</h3>
+            <p><span>Diretor: </span>Matt Bettinelli-Olpin, Tyler Gillett</p>
+            <p><span>Roteiro: </span>James Vanderbilt, Guy Busick</p>
+            <p><span>Estreia: </span>13 de janeiro de 2022</p>
+          </div>
+        </div>
+      </div>
+      <button class="carregar">+ Carregar mais entrevistas</button>
+    </section>
+
+    <section id="novidade">
+      <div class="novidade-container">
+        <h2 class="title-novidade">Novidades</h2>
+        <div class="card-novidade">
+          <img src="https://cdn.ome.lt/IePnztfhF1YOXqfBPXX1MPZymTs=/480x360/smart/extras/conteudos/ff_WChnKEA.jpg"
+            alt="" />
+          <div class="novidade-conteudo">
+            <h3>Velozes e Furiosos | Busca por novo diretor pode custar US$ 1 milhão por dia</h3>
+            <p>Após Justin Lin anunciar que não será mais diretor de Velozes e Furiosos 10 e, consequentemente, 11,
+              parece que a produção está correndo contra o relógio. O cineasta, que dirigiu a maior parte dos filmes da
+              franquia, deixou o comando dos capítulo finais por "diferenças criativas".</p>
+          </div>
+        </div>
+
+        <div class="card-novidade">
+          <img src="https://cdn.ome.lt/65RiGXeOLIo8V6m1Ex6HS2aux_Q=/987x0/smart/uploads/conteudo/fotos/wick.png"
+            alt="" />
+          <div class="novidade-conteudo">
+            <h3>Keanu Reeves mata geral com nunchakus em prévia de John Wick 4; veja a descrição</h3>
+            <p>cKeanu Reeves e o diretor Chad Stahelski tomaram o palco do painel da Lionsgate na CinemaCon 2022 para
+              revelar a primeira prévia em vídeo de John Wick 4, o proximo capítulo na adrenada franquia sobre o
+              assassino de aluguel fictício.</p>
+          </div>
+        </div>
+
+        <div class="card-novidade">
+          <img
+            src="https://cdn.ome.lt/MIhHdgb3pdh-AqV9E5evazzNfgI=/987x0/smart/uploads/conteudo/fotos/Novo_Projeto_GWE72A4.jpg" alt="" />
+          <div class="novidade-conteudo">
+            <h3>Doutor Estranho 2 | Teaser confirma Xavier e sugere personagem de What If…?</h3>
+            <p>Se o primeiro trailer de Doutor Estranho no Multiverso da Loucura apenas sugeriu a chegada de Charles
+              Xavier ao MCU, o novo teaser do longa lançado nesta quinta-feira (28) parece ter confirmado de vez a
+              participação do telepata vivido por Patrick Stewart. Ainda que não mostre o rosto do líder mutante, o
+              comercial revelou a cadeira flutuante que o Professor X usou nas HQs e na série animada dos 1990.</p>
+          </div>
+        </div>
+      </div>
+      <div class="sobre">
+        <h3>Sobre</h3>
+        <p>AdoroCinema é um website brasileiro de base de dados de informação sobre notícias, matérias sobre cinema, premiações, catálogo geral de filmes, atores e diretores. O site está no ar desde 1 de abril de 2000. Atualmente pertencente ao grupo 3 da disciplina de Tecnologias web</p>
+        <br>
+        <h3>Editorial</h3>
+        <label><b>Redação: </b>Daniel e Levi</label>
+        <label><b>Pesquisa: </b>Thiago</label>
+        <label><b>Gerente Geral: </b>Contoin</label>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <label>
+      ©Copyright 2022 - Disciplina de Tecnologias Web - <b>UFC</b>
+    </label>
+    <img src="http://www.gustavosaraiva.com.br/assets/img/Logo-AdoroCinema.jpg" class="logo" alt="" />
+  </footer>
+</body>
+
+</html>

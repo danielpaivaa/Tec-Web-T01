@@ -40,7 +40,12 @@ header {
 }
 
 footer {
-  background-color: var(--cinza);
+  background: var(--vermelhor);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.2% 0 0.2% 0;
 }
 
 nav {
@@ -83,8 +88,43 @@ nav {
   flex-direction: column;
 }
 
-.entrevista {
-  background-color: var(--cinza);
+.rating {
+  width: 10%;
+}
+
+#entrevista {
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.entrevista-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-entrevista {
+  width: 25%;
+}
+
+#entrevista .especificacoes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#entrevista .especificacoes span {
+  font-weight: 700;
+}
+
+#lancamentos h2 {
+  margin-top: 3%;
+}
+
+.title-entrevista,
+#lancamentos h2,
+.title-avaliacoes {
+  padding: 0 0 2% 6%;
 }
 
 #lancamentos h1 {
@@ -99,6 +139,12 @@ nav {
 
 .movie {
   display: flex;
+  justify-content: space-evenly;
+}
+
+.sinopse {
+  display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
 }
 
@@ -128,11 +174,13 @@ nav {
 .titulo-destaque {
   display: flex;
   justify-content: space-between;
-  margin: 0 5% 0 10%;
+  align-items: center;
+  margin: 2% 8% 0 8%;
 }
 
 .filme-destaque {
   width: 10%;
+  display: flex;
 }
 
 .filme-destaque:hover {
@@ -145,15 +193,18 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   height: 50vh;
 }
 
 .carregar {
   float: right;
   margin-right: 11.5%;
+  font-weight: bold;
+  margin-top: 2%;
 }
 
-.imagem-h4{
+.imagem-h4 {
   display: flex;
 }
 
@@ -161,27 +212,68 @@ nav {
   width: 15%;
 }
 
-.title-avaliacoes {
-  text-align: center;
-}
-
 #avaliacoes {
-  display: flex;
-  justify-content: space-evenly;
+  margin-top: 2%;
+  padding: 2% 0 2% 0;
+  background-color: var(--cinza);
 }
 
 .avaliacao {
-  width: 25%;
-}
-
-footer {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 2%;
 }
 
 @media (max-width: 768px) {
   .movie {
     flex-direction: column;
   }
+}
+.card-avaliacao {
+  width: 25%;
+}
+
+#novidade {
+  background-color: var(--cinza);
+  display: grid;
+  grid-template-columns: 1fr 250px;
+  padding: 2% 2% 2% 6%;
+  max-width: 100%;
+}
+
+#novidade img {
+  width: 30%;
+}
+
+.novidade-container div {
+  display: flex;
+  justify-content: center;
+}
+
+.card-novidade {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding: 2% 0 2% 0;
+  cursor: pointer;
+}
+.card-novidade:hover {
+  color: rgb(255, 42, 42);
+  transition: 0.3s ease;
+}
+
+.novidade-conteudo {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+.novidade-conteudo h3 {
+  padding-bottom: 2%;
+}
+
+.sobre {
+  display: flex;
+  flex-direction: column;
+}
+
+.carregar {
 }
