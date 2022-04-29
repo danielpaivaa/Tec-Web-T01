@@ -45,6 +45,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding:  0.2% 0 0.2% 0;
 }
 
 
@@ -93,7 +94,6 @@ nav {
   width: 100%;
   padding-top: 2%;
   padding-bottom: 2%;
-  /* margin-bottom: 2%; */
 }
 
 .entrevista-container {
@@ -197,8 +197,6 @@ nav {
   display: flex;
   justify-content: space-evenly;
   padding-top: 2%;
-  /* padding-bottom: 2%;
-  margin-bottom: 1%; */
 }
 
 .card-avaliacao {
@@ -213,7 +211,43 @@ nav {
 
 #novidade {
   background-color: var(--cinza);
-  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 250px;
+  padding: 2% 2% 2% 6%;
+  max-width: 100%;
+}
+
+#novidade img {
+  width: 30%;
+}
+
+.novidade-container div {
+  display: flex;
+  justify-content: center;
+}
+
+.card-novidade{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding: 2% 0 2% 0;
+  cursor: pointer
+}
+.card-novidade:hover {
+  color: #ffbf00;
+}
+
+.novidade-conteudo {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+.novidade-conteudo h3{
+  padding-bottom: 2%;
+}
+
+.sobre{
+  display: flex;
+  flex-direction: column;
 }
 
 .carregar{
