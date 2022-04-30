@@ -340,7 +340,7 @@ nav {
     
   }
 
-  .destaque{
+  #destaque{
     height: max-content;
     width: 100vw;
   }
