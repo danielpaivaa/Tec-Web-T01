@@ -277,3 +277,127 @@ nav {
 
 .carregar {
 }
+
+@media (max-width: 770px){
+  .movie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .movie h3{
+    font-size: 1.4em;
+    font-weight: bold;
+  }
+
+  .movie iframe{
+    width: 90vw;
+  }
+
+  .sinopse{
+    margin: 5%;
+    text-align: center;
+  }
+
+  .especificacoes{
+    display: block;
+    text-align: start;
+    margin-top: 5%;
+    background-color: #ebebeb;
+    padding: 4%;
+    border-radius: 10px;
+  }
+
+  #estrelas{
+    position: relative;
+    top: 100%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 6%;
+    width: 25vw;
+    z-index: 1;
+  }
+
+  .titulo-destaque{
+    display: block;
+    text-align: center;
+  }
+
+  .titulo-destaque h2{
+    font-size: 2.5em;
+    padding-bottom: 10px;
+  }
+
+  #categoria{
+    width: 40vw;
+    height: 7vw;
+    text-align: center;
+  }
+
+  .filmes{
+    display: inline-flex;
+    
+  }
+
+  .destaque{
+    height: max-content;
+    width: 100vw;
+  }
+
+  .filmes{
+    padding: 10% 0 10% 0;
+    height: min-content;
+  }
+
+  .filmes img{
+    width: 40vw;
+    margin: 2%;
+  }
+
+  .filme-destaque:hover{
+    width: 40vw;
+    transition: 0;
+    cursor: pointer;
+  }
+
+  .carregar{
+    margin: 5%;
+    font-size: 1.1em;
+  }
+
+  .title-avaliacoes{
+    font-size: 1.8em;
+    padding: 1% 1% 5% 5%;
+  }
+
+  .avaliacao{
+    display: block;
+    width: 100vw;
+  }
+
+  .card-avaliacao{
+    width: 100%;
+  }
+
+  .card-content{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .card-content h4{
+    font-size: 1.4em;
+    padding-left: 3%;
+  }
+
+  .card-content img{
+    padding: 0;
+  }
+
+  .card-avaliacao p{
+    padding: 0 2% 2% 5%;
+  }
+
+}
