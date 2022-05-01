@@ -31,7 +31,7 @@ a:hover {
 header {
   width: 100%;
   top: 0;
-  height: 10vh;
+  height: 12vh;
   background: var(--vermelhor);
   display: flex;
   justify-content: space-around;
@@ -90,6 +90,10 @@ nav {
 
 .rating {
   width: 10%;
+}
+
+.card-content img{
+  border-radius: 50%;
 }
 
 #entrevista {
@@ -237,12 +241,13 @@ nav {
   background-color: var(--cinza);
   display: grid;
   grid-template-columns: 1fr 250px;
-  padding: 2% 2% 2% 6%;
+  padding: 2%;
   max-width: 100%;
 }
 
 #novidade img {
-  width: 30%;
+  height: 110px;
+  width: 170px;
 }
 
 .novidade-container div {
@@ -275,10 +280,8 @@ nav {
   flex-direction: column;
 }
 
-.carregar {
-}
-
 @media (max-width: 770px){
+
   .movie{
     display: flex;
     flex-direction: column;
@@ -421,6 +424,43 @@ nav {
 
   .card-entrevista iframe{
     min-height: 50vw;
+  }
+
+  header{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .trailer{
+    margin-top: 2%;
+  }
+
+  .logo{
+    height: 46%;
+    width: 16%;
+  }
+
+  #novidade{
+    display: inline-block;
+  }
+
+  .search-form{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sobre h3{
+    margin: 1% 0;
   }
 
 }
