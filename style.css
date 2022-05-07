@@ -92,7 +92,7 @@ nav {
   width: 10%;
 }
 
-.card-content img{
+.card-content img {
   border-radius: 50%;
 }
 
@@ -111,22 +111,27 @@ nav {
   width: 25%;
 }
 
-#entrevista .especificacoes {
+#entrevista .especificacoes2 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-#entrevista .especificacoes span {
+#entrevista .especificacoes2 span {
   font-weight: 700;
 }
 
 #lancamentos h2 {
   margin-top: 3%;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.fa-bars {
+  display: none;
 }
 
 .title-entrevista,
-#lancamentos h2,
 .title-avaliacoes {
   padding: 0 0 2% 6%;
 }
@@ -150,6 +155,7 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  width: 50%;
 }
 
 .sinopse h3 {
@@ -165,7 +171,16 @@ nav {
   font-weight: 700;
 }
 
-.especificacoes {
+.sinopse p {
+  width: 80%;
+}
+
+.especificacoes p {
+  width: 30%;
+}
+
+.especificacoes,
+.especificacoes2 {
   display: flex;
   justify-content: space-between;
   margin-top: 2%;
@@ -232,7 +247,21 @@ nav {
   .movie {
     flex-direction: column;
   }
+
+  .sinopse {
+    width: 100%;
+  }
+
+  .sinopse p {
+    align-self: center;
+    width: 80%;
+  }
+  .rating {
+    align-self: center;
+    width: 15%;
+  }
 }
+
 .card-avaliacao {
   width: 25%;
 }
@@ -280,29 +309,32 @@ nav {
   flex-direction: column;
 }
 
-@media (max-width: 770px){
+@media (max-width: 770px) {
+  #lancamentos {
+    margin-top: 0%;
+  }
 
-  .movie{
+  .movie {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .movie h3{
+  .movie h3 {
     font-size: 1.4em;
     font-weight: bold;
   }
 
-  .movie iframe{
+  .movie iframe {
     width: 90vw;
   }
 
-  .sinopse{
+  .sinopse {
     margin: 5%;
     text-align: center;
   }
 
-  .especificacoes{
+  .especificacoes {
     display: block;
     text-align: start;
     margin-top: 5%;
@@ -311,7 +343,7 @@ nav {
     border-radius: 10px;
   }
 
-  #estrelas{
+  #estrelas {
     position: relative;
     top: 100%;
     left: 50%;
@@ -322,99 +354,98 @@ nav {
     z-index: 1;
   }
 
-  .titulo-destaque{
+  .titulo-destaque {
     display: block;
     text-align: center;
   }
 
-  .titulo-destaque h2{
+  .titulo-destaque h2 {
     font-size: 2.5em;
     padding-bottom: 10px;
   }
 
-  #categoria{
+  #categoria {
     width: 40vw;
     height: 7vw;
     text-align: center;
   }
 
-  .filmes{
+  .filmes {
     display: inline-flex;
-    
   }
 
-  #destaque{
+  #destaque {
     height: max-content;
     width: 100vw;
   }
 
-  .filmes{
+  .filmes {
     padding: 10% 0 10% 0;
     height: min-content;
   }
 
-  .filmes img{
+  .filmes img {
     width: 40vw;
     margin: 2%;
   }
 
-  .filme-destaque:hover{
+  .filme-destaque:hover {
     width: 40vw;
     transition: 0;
     cursor: pointer;
   }
 
-  .carregar{
+  .carregar {
     margin: 5%;
     font-size: 1.1em;
   }
 
-  .title-avaliacoes{
+  .title-avaliacoes {
     font-size: 1.8em;
     padding: 1% 1% 5% 5%;
   }
 
-  .avaliacao{
+  .avaliacao {
     display: block;
     width: 100vw;
   }
 
-  .card-avaliacao{
+  .card-avaliacao {
     width: 100%;
   }
 
-  .card-content{
+  .card-content {
     padding: 5%;
     display: flex;
     flex-direction: row;
     align-items: center;
   }
 
-  .card-content h4{
+  .card-content h4 {
     font-size: 1.4em;
     padding-left: 3%;
   }
 
-  .card-content img{
+  .card-content img {
     padding: 0;
   }
 
-  .card-avaliacao p{
+  .card-avaliacao p {
     padding: 0 2% 2% 5%;
   }
-  
-  .title-entrevista{
+
+  .title-entrevista {
     font-size: 1.8em;
   }
 
-  .entrevista-container{
+  .entrevista-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .card-entrevista{
+  .card-entrevista {
     padding: 3%;
     box-shadow: 0 0 12px rgb(226, 226, 226);
     width: 80vw;
@@ -422,45 +453,75 @@ nav {
     margin: 5% 0 5% 0;
   }
 
-  .card-entrevista iframe{
+  .card-entrevista iframe {
     min-height: 50vw;
   }
 
-  header{
+  header {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
   }
 
-  nav{
+  nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
   }
 
-  .trailer{
+  .trailer {
     margin-top: 2%;
   }
 
-  .logo{
+  .logo {
     height: 46%;
     width: 16%;
   }
 
-  #novidade{
+  #novidade {
     display: inline-block;
   }
 
-  .search-form{
+  .search-form {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
   }
 
-  .sobre h3{
+  .sobre h3 {
     margin: 1% 0;
   }
+}
 
+@media (max-width: 595px) {
+  header {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin-left: 2%;
+    width: 25%;
+    height: 50%;
+  }
+
+  .search-form {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+    padding-right: 2%;
+  }
+  #lancamentos {
+    margin-top: 3rem;
+  }
+  .dots {
+    width: 12%;
+  }
 }
