@@ -128,7 +128,7 @@ nav {
 }
 
 .fa-bars {
-  display: none;
+  display: none !important;
 }
 
 .title-entrevista,
@@ -515,7 +515,7 @@ nav {
     display: none;
   }
   .fa-bars {
-    display: block;
+    display: block !important;
     padding-right: 2%;
   }
   #lancamentos {
