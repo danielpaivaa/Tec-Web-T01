@@ -56,11 +56,19 @@ nav {
   display: flex;
   align-items: center;
   width: 15%;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.search-form input {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
 }
 
 .fa-search {
   margin-right: 1%;
-  color: #fff;
+  color: #000;
 }
 
 .nav-link {
@@ -485,7 +493,7 @@ nav {
 
   .search-form {
     display: flex;
-    width: 100%;
+    width: 40%;
     align-items: center;
     justify-content: center;
   }
